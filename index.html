@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fruit Selling Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Fruit Selling Website</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#apples">Apples</a></li>
+        <li><a href="#oranges">Oranges</a></li>
+        <li><a href="#bananas">Bananas</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="apples">
+        <h2>Apples</h2>
+        <ul>
+          <li>Red Delicious</li>
+          <li>Granny Smith</li>
+          <li>Golden Delicious</li>
+        </ul>
+        <button onclick="addToCart('Red Delicious')">Add to Cart</button>
+        <button onclick="addToCart('Granny Smith')">Add to Cart</button>
+        <button onclick="addToCart('Golden Delicious')">Add to Cart</button>
+      </section>
+      <section id="oranges">
+        <h2>Oranges</h2>
+        <ul>
+          <li>Navel</li>
+          <li>Valencia</li>
+          <li>Blood</li>
+        </ul>
+        <button onclick="addToCart('Navel')">Add to Cart</button>
+        <button onclick="addToCart('Valencia')">Add to Cart</button>
+        <button onclick="addToCart('Blood')">Add to Cart</button>
+      </section>
+      <section id="bananas">
+        <h2>Bananas</h2>
+        <ul>
+          <li>Cavendish</li>
+          <li>Gros Michel</li>
+          <li>Lady Finger</li>
+        </ul>
+        <button onclick="addToCart('Cavendish')">Add to Cart</button>
+        <button onclick="addToCart('Gros Michel')">Add to Cart</button>
+        <button onclick="addToCart('Lady Finger')">Add to Cart</button>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 2021 Fruit Selling Website</p>
+    </footer>
+    <script>
+      let cart = [];
+      function addToCart(fruit) {
+        cart.push(fruit);
+        console.log(`${fruit} has been added to the cart.`);
+      }
+    </script>
+  </body>
+</html>
