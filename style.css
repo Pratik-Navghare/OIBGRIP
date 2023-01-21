@@ -1,19 +1,28 @@
 body {
-    font-family: Arial, sans-serif;
+  background-color: #F6D9A0;
+    /*font-family: Arial, sans-serif;*/
   }
   
   header {
-    background-color: #f2f2f2;
+    background-color: #F1F2EB;
     padding: 20px;
     text-align: center;
-    border: #000;
+    background-size: 200% 10%;
+    
+  }
+  header h1{
+    height: 50px;
+    width: 150px;
+    color: #B49E94;
+    text-align: left;
   }
   
   nav {
-    background-color: #f2f2f2;
+    /*background-color: #f2f2f2;*/
     padding: 10px;
     text-align: center;
     border-color: blanchedalmond;
+    border-radius: 5px;
   }
   
   nav ul {
