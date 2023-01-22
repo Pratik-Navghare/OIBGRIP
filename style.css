@@ -8,6 +8,8 @@ body {
     padding: 20px;
     text-align: center;
     background-size: 200% 10%;
+    position: relative;
+    left: 10px;
     
   }
   header h1{
@@ -15,6 +17,8 @@ body {
     width: 150px;
     color: #B49E94;
     text-align: left;
+    position: relative;
+    left: 10px;
   }
   
   nav {
